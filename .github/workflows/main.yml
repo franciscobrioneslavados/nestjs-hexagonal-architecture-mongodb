@@ -30,6 +30,7 @@ jobs:
         with:
           sarif_file: results.sarif
   build:
+    needs: codacy-security-scan
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
