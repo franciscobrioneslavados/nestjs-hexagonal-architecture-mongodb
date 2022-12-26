@@ -1,4 +1,4 @@
-import { DynamicModule, Module } from '@nestjs/common';
+import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
 import { ApplicationModule } from '../application/application.module';
 import ProductSchema from './adapters/respository/products/schema/product.schema';
