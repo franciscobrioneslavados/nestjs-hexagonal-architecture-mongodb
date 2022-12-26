@@ -36,4 +36,4 @@ lerna-debug.log*
 
 # ENV files
 .env
-/environments/local.env
+environments/local.env
